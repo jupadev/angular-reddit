@@ -1,3 +1,3 @@
-<h1>
-  {{title}}
-</h1>
+<h1>{{title}}</h1>
+<input type="text" name="search" #box (keyup.enter)="onKeyEnter(box.value)" placeholder="search">
+<app-my-reddit subreddit="{{subreddit}}"></app-my-reddit>
