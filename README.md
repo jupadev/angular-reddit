@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
 
+## Prerequisites
+- node v6.9.2
+- git clone https://github.com/jupadev/angular-reddit.git
+- cd my-reddit-app
+- npm install
+- ng serve --open
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
